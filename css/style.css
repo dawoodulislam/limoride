@@ -1,0 +1,657 @@
+/* fonts*/
+
+@font-face{
+    font-family: Raleway-Bold;
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+@font-face{
+    font-family: Raleway-Medium;
+    src: url(../fonts/Raleway-Medium.ttf);
+}
+@font-face{
+    font-family: Raleway-Regular;
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+@font-face{
+    font-family: Raleway-Light;
+    src: url(../fonts/Raleway-Light.ttf);
+}
+@font-face{
+    font-family: Interstate-Regular;
+    src: url(../fonts/Interstate-Regular.ttf);
+}
+@font-face{
+    font-family: Interstate-Bold;
+    src: url(../fonts/Interstate-Bold.ttf);
+}
+@font-face{
+    font-family: HelveticaNeue;
+    src: url(../fonts/HelveticaNeue.ttf);
+}
+/* fonts*/
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Raleway-Regular;
+    color: #000;
+    font-size: 20px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.w-90{
+    width: 90%!important;
+}
+.w-80{
+    width: 80%!important;
+}
+.w-85{
+    width: 85% !important;
+}
+.bg-one{
+    background-color: #f4f4f4;
+}
+.pt-85{
+    padding-top: 85px;
+}
+.pb-70{
+    padding-bottom: 70px;
+}
+/*******Header start*******/
+header .navbar{
+    background-color: #000 !important;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+header .navbar .navbar-toggler:focus{
+    outline: none;
+}
+header .navbar .navbar-nav .nav-item{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+header .navbar .navbar-nav .nav-item:last-child{
+    margin-right: 0;
+}
+header .navbar .navbar-nav .nav-link{
+    font-family: HelveticaNeue;
+    font-size: 20px;
+    color: #ffffff;
+    text-transform: capitalize;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    transition: 0.5s all;
+}
+header .navbar .navbar-nav .nav-link:hover{
+    color: #fff;
+    border-bottom: 3px solid #f9c14a;
+}
+/******* Header end*******/
+
+/******* banner end*******/
+.ride-banner{
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    padding: 85px 0 55px;
+}
+.ride-banner .banner-head{
+    margin-bottom: 70px;
+}
+.ride-banner .banner-head h2{
+    font-family: Raleway-Medium;
+    font-size: 42px;
+}
+.ride-banner .banner-head h2 span{
+    font-family: Raleway-Bold;
+}
+.ride-banner .reviews p,
+.ride-banner .user p,
+.ride-banner .user-access p,
+.ride-banner .banner-head p{
+    font-size: 18px;
+    line-height: 22px;
+}
+.ride-banner .reviews h3,
+.ride-banner .user h3,
+.ride-banner .user-access h3{
+    font-family: Interstate-Bold;
+    font-size: 42px;
+}
+.ride-banner form{
+    margin-top: 275px;
+}
+.ride-banner form label{
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+.ride-banner form .form-control{
+    height: 60px;
+    background-color: #fff;
+    border: 0;
+    border-radius: 12px;
+    font-size: 20px;
+}
+.ride-banner form .form-control:focus{
+    outline: none;
+    box-shadow: none;
+}
+.ride-banner form .btn{
+    width: 100%;
+    height: 60px;
+    background-color: #FCB134;
+    border-radius: 12px;
+    font-size: 20px;
+}
+/******* banner end*******/
+
+/*service start*/
+.service{
+    padding: 60px 0;
+}
+.service .service-head{
+    position: relative;
+    margin-bottom: 65px;
+}
+.service .service-head h2{
+    font-family: Raleway-Regular;
+    font-size: 42px;
+}
+.service .service-head h2 span{
+    font-family: Raleway-Bold;
+}
+.service .service-head a{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-family: Interstate-Regular;
+    font-size: 18px;
+    color: #717171;
+}
+.service .service-content p{
+    margin-top: 15px;
+    font-family: Raleway-Bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+/*service end*/
+
+/*select vehicale start*/
+.select-vehicle{
+    background-color: #F5F5F5;
+    padding: 65px 0;
+}
+.select-vehicle .select-head{
+    margin-bottom: 55px;
+}
+.select-vehicle .select-head a{
+    font-family: Interstate-Regular;
+    font-size: 18px;
+    color: #717171;
+}
+.select-vehicle .select-content{
+    padding-right: 20px;
+}
+.select-vehicle .select-content h2{
+    font-size: 42px;
+    text-transform: uppercase;
+}
+.select-vehicle .select-content p{
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 15px;
+}
+.select-vehicle .carousel-item img{
+    position: relative;
+}
+.select-vehicle .carousel-item .img-overlay{
+    position: absolute;
+    top: 0;
+    left: 15px;
+    right: 0;
+    bottom: 0;
+    width: calc(100% - 30px);
+    height: 100%;
+}
+.select-vehicle .carousel-item .img-overlay .img-top1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 15%;
+}
+.select-vehicle .carousel-item .img-overlay .img-top2{
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    height: 15%;
+}
+.select-vehicle .carousel-item .img-overlay .img-top1 h4{
+    font-family: Raleway-Bold;
+    font-size: 18px;
+    color: #000;
+    text-transform: uppercase;
+    position: relative;
+    float: left;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -85%);
+}
+.select-vehicle .carousel-item .img-overlay .img-top2 ul{
+    list-style: none;
+    padding-left: 0;
+    position: relative;
+    float: left;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.select-vehicle .carousel-item .img-overlay .img-top2 ul li{
+    float: left;
+}
+.select-vehicle .carousel-item .img-overlay .img-top2 ul li,
+.select-vehicle .carousel-item .img-overlay .img-top2 ul li i{
+    font-size: 18px;
+    color: #fff;
+    line-height: 20px;
+}
+.select-vehicle .carousel-item .img-overlay .img-top2 ul .fill-star{
+    font-size: 26px;
+}
+.select-vehicle .carousel-item .img-overlay .img-footer1{
+    position: absolute;
+    bottom: 15%;
+    width: 100%;
+    height: 15%;
+}
+.select-vehicle .carousel-item .img-overlay .img-footer1 h4 {
+    font-family: Interstate-Regular;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 1px;
+    position: relative;
+    float: left;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -85%);
+}
+.select-vehicle .carousel-item .img-overlay .img-footer2{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+}
+.select-vehicle .carousel-item .img-overlay .img-footer2 p{
+    font-family: Raleway-Bold;
+    /*    this font will be arial bold*/
+    font-size: 14px;
+    color: #000;
+    position: relative;
+    float: left;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.select-vehicle .carousel-item .img-overlay .img-footer2 p span{
+    margin-right: 5px;
+}
+.select-vehicle .carousel-item .img-overlay .img-footer2 p .fa{
+
+    margin-right: 5px;
+}
+.select-vehicle .carousel-item .img-overlay .img-footer2 p .icon-one{
+    color: #FC0303;
+}
+.select-vehicle .carousel-item .img-overlay .img-footer2 p .icon-two{
+    color: #717171;
+}
+.select-vehicle .carousel .carousel-control-prev1 .fa{
+    font-size: 25px;
+    color: #E4E4E4;
+}
+.select-vehicle .carousel .carousel-control-next1 .fa{
+    font-size: 25px;
+    color: #E4E4E4;
+}
+.select-vehicle .carousel .carousel-control-next1 .fa:hover,
+.select-vehicle .carousel .carousel-control-prev1 .fa:hover{
+    color: #FCB134;
+}
+/*select vehicale end*/
+
+/*client review start*/
+.client{
+    padding: 50px 0;
+}
+.client .client-head h2{
+    font-family: Raleway-Regular;
+    font-size: 42px;
+    margin-bottom: 60px;
+}
+.client .client-head h2 span{
+    font-family: Raleway-Bold;
+}
+.client .client-head p{
+    font-size: 18px;
+    line-height: 22px;
+}
+.client .carousel{
+    margin-top: 50px;
+}
+.client .carousel .carousel-item img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+.client .carousel .carousel-item .name-rate ul{
+    list-style: none;
+    padding-left: 0;
+    display: inline-block;
+    margin-top: 40px;
+}
+.client .carousel .carousel-item .name-rate ul li{
+    float: left;
+    line-height: 20px;
+}
+.client .carousel .carousel-item .name-rate ul .list-text{
+    font-family: Raleway-Bold;
+    font-size: 18px;
+}
+.client .carousel .carousel-indicators{
+    bottom: -40px;
+}
+.client .carousel .carousel-indicators li{
+    background-color: #E4E4E4;
+    width: 20px;
+    height: 2px;
+}
+.client .carousel .carousel-indicators .active {
+    opacity: 1;
+    background-color: #000;
+    height: 3px;
+}
+.client .carousel .carousel-item .name-rate ul .far,
+.client .carousel .carousel-item .name-rate ul .fas{
+    color: #FCB134;
+    font-size: 18px;
+}
+/*client review end*/
+
+/*work start*/
+.work{
+    padding: 60px 0;
+    background-color: #F5F5F5;
+}
+.work .work-head h2{
+    font-family: Raleway-Regular;
+    font-size: 42px;
+    margin-bottom: 70px;
+}
+.work .work-head h2 span{
+    font-family: Raleway-Bold;
+}
+.work .card{
+    padding: 35px;
+    border-radius: 12px;
+}
+.work .card h4{
+    font-family: Raleway-Bold;
+    font-size: 18px;
+    margin: 35px 0 18px;
+}
+.work .card img{
+    height: 100px;
+}
+.work .card p{
+    font-family: Raleway-Light;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+/*work end*/
+
+/*app start*/
+.apps{
+    padding-top: 60px;
+    background-color: #FCB134;
+}
+.apps .app-content p{
+    font-family: Raleway-Bold;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.apps .app-content h2{
+    font-size: 50px;
+    color: #fff;
+}
+.apps .app-content ul{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+.apps .app-content ul li{
+    font-size: 20px;
+    color: #fff;
+}
+.apps .app-link a{
+    text-decoration: none;
+    transition: 0.5s;
+}
+.apps .app-link a:hover{
+    opacity: 0.8;
+}
+/*app end*/
+
+/*about us page start*/
+.about-us{
+    padding: 50px 0 60px;
+}
+.about-us .about-us-head h2{
+    font-family: Raleway-Bold;
+    font-size: 42px;
+    margin-bottom: 25px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.about-us .abt-content h5{
+    font-family: Raleway-Bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+.about-us .abt-content p{
+    font-family: Raleway-Regular;
+    font-size: 20px;
+    color: #000;
+}
+.about-us .abt-img{
+    text-align: center;
+}
+.abt-top{
+    margin-top: 70px;
+}
+/*about us page end*/
+
+/*contact us page start*/
+.contact-us{
+    padding: 50px 0 60px;
+}
+.contact-us .contact-us-head h2{
+    font-family: Raleway-Bold;
+    font-size: 42px;
+    margin-bottom: 25px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.contact-us form .form-group input{
+    font-family: Raleway-Regular;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    height: 60px;
+    border-radius: 12px;
+    border: 0;
+    padding-left: 15px;
+    background-color: #E6E6E6;
+}
+.contact-us form .form-group textarea:focus,
+.contact-us form .form-group input:focus{
+    outline: none;
+    box-shadow: none;
+}
+.contact-us form .form-group textarea{
+    font-family: Raleway-Regular;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    height: 250px;
+    border: 0;
+    background-color: #E6E6E6;
+    border-radius: 12px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+/*changes css on 20/10/2020 start*/
+.contact-us .cu-save button{
+    padding: 12px 40px;
+    font-family: Raleway-Bold;
+    font-size: 20px;
+    background-color: #FCB033;
+    border-radius: 12px;
+    text-transform: capitalize;
+}
+/*changes css on 20/10/2020 end*/
+/*contact us page end*/
+
+/******* Footer Start *********/
+footer{
+    padding: 35px 0 45px;
+    background-color: #000;
+    border-top: 12px solid #f9c14a;
+}
+footer .footer-part-one h3{
+    color: #fff;
+    font-size: 20.83px;
+    margin-bottom: 0;
+    margin-bottom: 12px;
+}
+footer .footer-part-one h5{
+    color: #fff;
+    font-size: 12.5px;
+    text-transform: uppercase;
+}
+footer .footer-part-one a{
+    padding: 3px 5px;
+    background-color: #f9c14a;
+    text-decoration: none;
+    font-size: 12.5px;
+    color: #000000;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+footer .footer-part-two,
+footer .footer-part-three{
+    border-left: 2px solid #f9c14a;
+    padding-left: 70px;
+}
+footer .footer-part-two h2,
+footer .footer-part-three h2{
+    margin-bottom: 0;
+    font-family: Raleway-Bold;
+    color: #fff;
+    font-size: 20.83px;
+    margin-bottom: 20px;
+}
+footer .footer-part-two .icon-div{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: relative;
+}
+footer .footer-part-two .icon-div img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+footer .footer-part-two p{
+    font-family: Raleway-Regular;
+    color: #fff;
+    font-size: 12.5px;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+footer .footer-part-three .list-group .list-group-item{
+    padding: 0;
+    background: transparent;
+    border: none;
+}
+footer .footer-part-three .icon-link{
+    display: inline-block;
+}
+footer .footer-part-three a{
+    font-family: Raleway-Medium;
+    font-size: 12.5px;
+    color: #fff;
+    margin-left: 20px;
+}
+footer .footer-part-three{}
+/******* Footer End *********/
+
+/******* Scroll to Top *********/
+.totop{
+    position: fixed;
+    bottom: 40px;
+    right: 55px;
+    z-index: 100;
+    overflow: hidden;
+    outline: 1px solid rgba(255,255,255,.2);
+    background-color: #f9c14a;
+    padding: 18px;
+    border-radius: 3px;
+    display: inline-block;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s ease;
+}
+.totop:before{
+    position: absolute;
+    content: "";
+    top: 0px;
+    height: 100%;
+    left: -75%;
+    width: 0%;
+    transform: skew(50deg);
+    transition-duration: .6s;
+    z-index: 1;
+}
+.totop:after{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    content: '';
+    border: 5px solid transparent;
+    border-bottom-color: #fff;
+    top: 10px;
+    left: 13px;
+    z-index: 2;
+}
+.totop:hover:before{width: 290%;}
+.totop.opened{
+    opacity: 1;
+    visibility: visible;
+    bottom: 55px;
+}
+
+/*********************************/

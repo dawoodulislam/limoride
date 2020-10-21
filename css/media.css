@@ -1,0 +1,474 @@
+/******** Handle Browse By Cuisine Slider Start**********/
+
+@media (min-width: 401px) and (max-width: 478px){
+
+}
+@media (min-width: 479px) and (max-width: 540px){
+
+}
+@media (min-width: 541px) and (max-width: 576px){
+
+}
+/******** Handle Browse By Cuisine Slider End**********/
+
+
+/* start small than sm */
+@media (max-width: 575px)
+{
+    /******* Header Start *********/
+    header .navbar{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    header .navbar .navbar-nav .nav-link{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: none;
+    }
+    header .navbar .navbar-nav .nav-link:hover{
+        border: 0;
+    }
+    /******* Header End *********/
+
+    /******* banner end*******/
+    .ride-banner{
+        padding: 55px 0 45px;
+        background-position: 50% 50%;
+        background-attachment: fixed;
+    }
+    .ride-banner .banner-head{
+        margin-bottom: 45px;
+    }
+    .ride-banner .banner-head h2{
+        font-size: 30px;
+    }
+    .ride-banner .banner-head p{
+        font-size: 16px;
+    }
+    .ride-banner .reviews p,
+    .ride-banner .user p,
+    .ride-banner .user-access p{
+        font-size: 13px;
+    }
+    .ride-banner .reviews h3,
+    .ride-banner .user h3,
+    .ride-banner .user-access h3{
+        font-size: 30px;
+    }
+    .ride-banner form {
+        margin-top: 250px;
+    }
+    .ride-banner form label{
+        font-size: 16px;
+        color: #fff;
+    }
+    .ride-banner form .form-control{
+        height: 50px;
+        font-size: 16px;
+    }
+    .ride-banner form .btn{
+        height: 50px;
+        font-size: 16px;
+    }
+    .ride-banner form .form-group{
+        margin-bottom: 8px;
+    }
+    /******* banner end*******/
+
+    /*service start*/
+    .service .service-head h2{
+        font-size: 29px;
+    }
+    .service .service-head a{
+        bottom: -25px;
+        font-size: 16px;
+    }
+    /*service end*/
+
+    /*   select vehicle start */
+    .select-vehicle .select-content h2 {
+        font-size: 25px;
+    }
+    .select-vehicle .select-content p {
+        font-size: 14px;
+    }
+    .select-vehicle .carousel-item .img-overlay .img-top1 h4 {
+        font-size: 14px;
+    }
+    .select-vehicle .carousel-item .img-overlay .img-top2 ul li, .select-vehicle .carousel-item .img-overlay .img-top2 ul li i {
+        font-size: 12px;
+    }
+    .select-vehicle .carousel-item .img-overlay .img-top2 ul .fill-star {
+        font-size: 18px;
+    }
+    .select-vehicle .carousel-item .img-overlay .img-footer1 h4 {
+        font-size: 13px;
+    }
+    .select-vehicle .carousel-item .img-overlay .img-footer2 p {
+        font-size: 11px;
+        margin: 0;
+    }
+    .select-vehicle .carousel-item .img-overlay .img-footer2 p .fa {
+        margin: 0;
+    }
+    .select-vehicle .carousel-item .img-overlay .img-footer2 p span{
+        margin: 0;
+    }
+    .select-vehicle .carousel-item .img-overlay .img-footer2 p {
+        top: 0;
+        left: 47%;
+        transform: translate(-47%, 0);
+    }
+    .select-vehicle .carousel-item .img-overlay .img-top1 h4 {
+        top: 95%;
+        left: 50%;
+        transform: translate(-50%, -95%);
+    }
+    /*   select vehicle end*/
+
+    /*client review start*/
+    .client .client-head h2 {
+        font-size: 35px;
+        margin-bottom: 25px;
+    }
+    .client .client-head p {
+        font-size: 16px;
+    }
+    .client .carousel .carousel-item .name-rate ul .far, .client .carousel .carousel-item .name-rate ul .fas {
+        font-size: 16px;
+    }
+    .client .carousel .carousel-item .name-rate ul .list-text {
+        font-size: 16px;
+    }
+    /*client review end*/
+
+    /*work start*/
+    .work .work-head h2 {
+        font-size: 35px;
+        margin-bottom: 35px;
+    }
+    /*work end*/
+
+    /*apps start*/
+    .apps{
+        padding-bottom: 50px;
+    }
+    .apps .app-content p {
+        font-size: 18px;
+        text-align: center;
+    }
+    .apps .app-content h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+    .apps .app-content ul{
+        text-align: center;
+    }
+    .apps .app-content ul li {
+        font-size: 16px;
+    }
+    .apps .app-link{
+        text-align: center;
+    }
+    .apps .app-link a img{
+        width: 40%;
+    }
+    /*apps end*/
+
+    /*about us*/
+    .about-us {
+        padding: 30px 0 60px;
+    }
+    .about-us .abt-content p {
+        font-size: 16px;
+    }
+    .about-us .about-us-head h2 {
+        font-size: 40px;
+        margin-bottom: 35px;
+    }
+    /*about us*/
+
+    /*contact us start*/
+    .contact-us .w-90{
+        width: 100% !important;
+    }
+    .contact-us .contact-us-head h2 {
+        font-size: 35px;
+    }
+    .contact-us .btn{
+        width: 100%;
+    }
+    /*contact us end*/
+
+    /****** Footer Start*****/
+    footer .footer-part-two,
+    footer .footer-part-three{
+        border-left: none;
+        padding-left: 0px;
+    }
+    footer .contact-div p{
+        font-size: 13.67px;
+    }
+    footer .contact-div{
+        right: 15px;
+    }
+    /****** Footer End*****/
+}
+/* end small than sm 
+
+
+
+/* start sm */
+@media (min-width: 576px) and (max-width: 767px)
+{
+    /******* Header Start *********/
+    header .navbar{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    header .navbar .navbar-nav .nav-link{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: none;
+    }
+    header .navbar .navbar-nav .nav-link:hover{
+        border: 0;
+    }
+    /******* Header End *********/
+
+    /******* banner end*******/
+    .ride-banner{
+        padding: 55px 0 45px;
+        background-position: 50% 50%;
+        background-attachment: fixed;
+    }
+    .ride-banner .banner-head{
+        margin-bottom: 55px;
+    }
+    .ride-banner form{
+        margin-top: 75px;
+    }
+    .ride-banner form label{
+        font-size: 18px;
+        color: #fff;
+    }
+    .ride-banner form .form-control{
+        height: 50px;
+        font-size: 16px;
+    }
+    .ride-banner form .btn{
+        height: 50px;
+        font-size: 16px;
+    }
+    .ride-banner form .form-group{
+        margin-bottom: 8px;
+    }
+    /******* banner end*******/
+
+    /*start vehicle start*/
+    .select-vehicle .select-content {
+        margin-bottom: 25px;
+    }
+    /*start vehicle end*/
+
+    /*apps start*/
+    .apps .app-content p {
+        font-size: 14px;
+    }
+    .apps .app-content h2 {
+        font-size: 26px;
+    }
+    .apps .app-content ul li {
+        font-size: 13px;
+    }
+    .apps .app-link a img{
+        width: 45%;
+    }
+    /*apps end*/
+
+    /****** Footer Start*****/
+    footer .footer-part-two,
+    footer .footer-part-three{
+        border-left: none;
+        padding-left: 0px;
+    }
+    /****** Footer End*****/
+
+}
+/* end sm */
+
+/* start md */
+@media (min-width: 768px) and (max-width: 991px)
+{
+    /******* Header Start *********/
+    header .navbar{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    header .navbar .navbar-nav .nav-link{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: none;
+    }
+    header .navbar .navbar-nav .nav-link:hover{
+        border: 0;
+    }
+    /******* Header End *********/
+
+    /*banner start*/
+    .ride-banner form label {
+        font-size: 17px;
+        margin-bottom: 2px;
+    }
+    /*banner end*/
+
+    /*select vehicle start*/
+    .select-vehicle .select-content h2 {
+        font-size: 25px;
+    }
+    .select-vehicle .select-content p {
+        font-size: 14px;
+    }
+    .select-vehicle .carousel-item .img-overlay .img-top1 h4 {
+        font-size: 15px;
+    }
+    .select-vehicle .carousel-item .img-overlay .img-top2 ul li, .select-vehicle .carousel-item .img-overlay .img-top2 ul li i {
+        font-size: 14px;
+    }
+    .select-vehicle .carousel-item .img-overlay .img-top2 ul .fill-star {
+        font-size: 21px;
+    }
+    .select-vehicle .carousel-item .img-overlay .img-footer1 h4 {
+        font-size: 16px;
+    }
+    .select-vehicle .carousel-item .img-overlay .img-footer2 p {
+        font-size: 12px;
+        margin: 0;
+    }
+    /*select vehicle start*/
+
+    /*work start*/
+    .work .card img {
+        height: 75px;
+    }
+    .work .card p {
+        font-size: 15px;
+    }
+    .work .card h4 {
+        font-size: 15px;
+    }
+    /*work end*/
+
+    /*apps start*/
+    .apps .app-content p {
+        font-size: 15px;
+    }
+    .apps .app-content h2 {
+        font-size: 32px;
+    }
+    .apps .app-content ul li {
+        font-size: 15px;
+    }
+    .apps .app-link a img{
+        width: 35%;
+    }
+    /*apps end*/
+
+    /****** Footer Start*****/
+    footer .footer-part-one{
+        margin-left: 70px;
+    }
+    footer .footer-part-two{
+        border: none;
+    }
+    /****** Footer End*****/
+
+}
+/* end md */
+
+/* start lg */
+@media (min-width: 992px) and (max-width: 1199px)
+{
+    /*select vehicale start*/
+    .select-vehicle .select-content h2{
+        font-size: 35px;
+    }
+    /*select vehicale end*/
+}
+/* end lg */
+
+/* start xl */
+@media (min-width: 1300px)
+{
+
+}
+/* end xl */
+/* start xl */
+@media (min-width: 1500px)
+{
+
+}
+/* end xl */
+/*media query end*/
+
+@media (min-width: 300px) and (max-width: 362px){
+    /***Hero Section Start ***/
+    .hero .service-item img{
+        width: 290px;
+        height: 231px;
+    }
+    .hero .coming-soon{
+        width: 290px;
+        height: 231px;
+        margin: 0 auto;
+    }
+    .hero .service-link img{
+        width: 58%;
+    }
+    /***Hero Section Start ***/
+}
+
+/*********Feature Carusel Media Query***********/
+@media (max-width: 767px) {
+    .carousel-inner1 .carousel-item1 > div {
+        display: none;
+    }
+    .carousel-inner1 .carousel-item1 > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner1 .carousel-item1.active,
+.carousel-inner1 .carousel-item-next,
+.carousel-inner1 .carousel-item-prev {
+    display: flex;
+}
+
+/*Scroll To Top*/
+.totop{
+    right: 20px;
+    bottom: 10px;
+}
+.otop.opened{
+    bottom: 20px;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+
+    .carousel-inner1 .carousel-item-right.active,
+    .carousel-inner1 .carousel-item-next {
+        transform: translateX(33.33%);
+    }
+
+    .carousel-inner1 .carousel-item-left.active, 
+    .carousel-inner1 .carousel-item-prev {
+        transform: translateX(-33.33%);
+    }
+}
+
+.carousel-inner1 .carousel-item-right,
+.carousel-inner1 .carousel-item-left{ 
+    transform: translateX(0);
+}
+/*********Feature Carusel Media Query***********/
